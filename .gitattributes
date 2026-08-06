@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
+# ipynb强制LF换行，防止git转换损坏notebook
+*.ipynb text eol=lf
+# 其余文件沿用git默认规则
 * text=auto
+
